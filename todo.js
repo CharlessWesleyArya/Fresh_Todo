@@ -151,7 +151,6 @@ function renderTodoItem(todo) {
         newTodos[idx] = t;
         todos=newTodos;
         render(newTodos);
-        setDisabled(t.status)
     })
 
     markCompleted.appendChild(statusBtn);
